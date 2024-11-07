@@ -1,0 +1,123 @@
+* {
+   box-sizing: border-box; 
+}
+body {
+    color: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+    background-color: #DFDDDD;
+}
+
+.título {
+    background-color: #004AAD;
+    border-bottom: solid 2px #0000;
+    padding: 20px;
+    font-size: 64px;
+    color: rgb(255, 230, 0);
+    font-family: "PT Serif", serif;
+    font-weight: bold;
+    z-index: 100;
+}
+
+.chamada {
+    background-color: #DFDDDD;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.Subtítulo {
+    text-align: center;
+    font-size: 25px;
+    color: yellow;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Chakra Petch", sans-serif;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Chakra Petch", sans-serif;
+    line-height: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.co, .barras{
+   background-color: #DFDDDD;
+   border: solid 10px #DFDDDD;
+   clear: left;
+   position: relative;
+   bottom: 25px;
+}
+.imagens {
+    background-color: #004AAD;
+    border: solid 2px black;
+    margin: 15px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+}
+.colaboradores {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    position: relative;
+    top: 20px;
+}
+.fotos {
+    margin: 10px;
+    position: relative;
+    left: 250px;
+    border-radius: 25px;
+    border: solid 3px;
+    box-shadow: 8px 8px 3px darkblue;
+}
+
+.logo {
+    position: relative;
+    bottom: 45px;
+    float: left;
+}
+
+#RB {
+    text-align: center;
+}
+.barras img {
+    height: 65px;
+}
+.barras img:hover {
+    height: 70px;
+    margin: 0 1px 1px 0;
+}
+.chamada-texto {
+    position: relative;
+    bottom: 120px;
+    border: solid black;
+    background-color: #004AAD;
+    padding: 10px;
+    color: white;
+    margin: 75px 0 -75px 0;
+    box-shadow: 8px 8px 5px grey;
+}
+.barras img:hover, body img {
+    position: absolute;
+}
